@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const whatsappUrl = "https://wa.me/573126132588?text=Hola,%20quisiera%20solicitar%20información%20sobre%20los%20servicios%20de%20salud%20ocupacional.";
+  const whatsappUrl = "https://wa.me/573165924974?text=Hola,%20quisiera%20solicitar%20información%20sobre%20los%20servicios%20de%20salud%20ocupacional.";
 
   return (
     <div className="min-h-screen bg-[#F4F6F8] text-slate-800 flex flex-col font-sans">
@@ -114,7 +114,7 @@ export default function App() {
           <div>
             <h2 className="text-2xl font-extrabold mb-4">Canal de Atención Directa</h2>
             <p className="text-blue-100 text-sm mb-4">Comuníquese con nuestro equipo para cotizaciones y agendas empresariales.</p>
-            <p className="font-bold text-emerald-400">WhatsApp: 312 613 2588</p>
+            <p className="font-bold text-emerald-400">WhatsApp: 316 592 4974</p>
           </div>
           <div className="flex justify-center md:justify-end">
             <a 
@@ -130,11 +130,10 @@ export default function App() {
       </section>
 
       {/* FOOTER */}
-      {/* FOOTER */}
       <footer className="mt-auto bg-slate-900 text-slate-300 pt-8 pb-8 border-t border-slate-800 text-xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p>© {new Date().getFullYear()} Integra Ocupacional IPS. Calle 31 # 28-45, Palmira, Valle del Cauca, Colombia.</p>
-          <p>Teléfono / WhatsApp: 312 613 2588</p>
+          <p>Teléfono / WhatsApp: 316 592 4974</p>
         </div>
       </footer>
 
@@ -147,7 +146,7 @@ export default function App() {
               Nos encontramos actualizando nuestra plataforma de agendamiento en línea para brindarle un mejor servicio. Pedimos disculpas por los inconvenientes ocasionados.
             </p>
             <p className="text-slate-700 font-semibold text-xs bg-slate-50 p-3 rounded-lg border border-slate-200">
-              Para atención inmediata, comuníquese vía WhatsApp al <strong className="text-[#003366]">312 613 2588</strong>.
+              Para atención inmediata, comuníquese vía WhatsApp al <strong className="text-[#003366]">316 592 4974</strong>.
             </p>
             <div className="pt-2 flex gap-3">
               <a 
